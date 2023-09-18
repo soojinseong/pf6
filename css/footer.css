@@ -1,0 +1,241 @@
+#official_footer {
+padding-top:50px;
+background:#292929;
+}
+#official_footer .sitemap {
+text-align:center;
+}
+#official_footer .sitemap .centered_content{
+  
+  width: 1070px;
+  margin: 0 auto;
+}
+#official_footer .sitemap ul {
+/* display:inline-block;
+*/
+}
+#official_footer .sitemap ul:after {
+display:table;
+clear:both;
+content:"";
+}
+#official_footer .sitemap li {
+float:left;
+margin-bottom:50px;
+}
+#official_footer .sitemap a {
+display:block;
+color:#fff;
+vertical-align:top;
+white-space:nowrap;
+}
+#official_footer .sitemap li ul {
+position:relative;
+padding-top:15px;
+}
+#official_footer .sitemap li ul.col-2 {
+width:100%;
+margin:0 auto;
+}
+#official_footer .sitemap li ul.col-2 > div:nth-of-type(1){
+float: left;
+width: 50%;
+}
+#official_footer .sitemap li ul.col-2 > div:nth-of-type(2){
+float: right;
+width: 50%;
+}
+/*#official_footer .sitemap ul .safety {
+letter-spacing: -1.5px;
+}*/
+/*#official_footer .sitemap li ul:before {
+position:absolute;
+top:0;
+left:50%;
+width:10px;
+height:1px;
+margin-left:-5px;
+background:#7b7b7b;
+content:"";
+}*/
+#official_footer .sitemap li li {
+position:relative;
+float:none;
+margin-bottom:10px;
+}
+#official_footer .sitemap li li a {
+color:#7b7b7b;
+}
+#official_footer .sitemap .centered_content > ul > li {
+width:20%;
+}
+#official_footer .sitemap .centered_content > ul > li > a {
+margin-bottom:15px;
+font-weight:200;
+font-size:15px;
+}
+
+
+#official_footer .sitemap li li > div {
+display:inline-block;
+position:relative;
+}
+#official_footer .sitemap li li ul {
+display:none;
+position:absolute;
+left:100%;
+top:-3px;
+z-index:100;
+min-width:100px;
+margin-left:17px;
+padding:17px 18px;
+background:#4e4e4e url(/assets/images/common/arrow_l.png) no-repeat 0 8px;
+color:#7b7b7b;
+}
+#official_footer .sitemap li li ul:after {
+position:absolute;
+left:-7px;
+top:6px;
+width:7px;
+height:13px;
+background:url(/assets/images/common/arrow_l.png) no-repeat;
+content:"";
+}
+#official_footer .sitemap li li:hover ul{
+display:block;
+}
+#official_footer .sitemap li li:hover ul li {
+margin-top:12px;
+margin-bottom:0;
+}
+#official_footer .sitemap li li:hover ul li:first-child {
+margin-top:0;
+}
+#official_footer .sitemap li li:hover ul a {
+display:block;
+}
+#official_footer .sitemap li li:hover ul a:hover {
+color:#fff;
+}
+
+#official_footer .policy {
+border:1px solid #343434;
+border-width:1px 0;
+}
+#official_footer .policy .centered_content{
+  width: 1070px;
+  margin: 0 auto;
+}
+#official_footer .policy ul:after {
+display:table;
+clear:both;
+content:"";
+}
+#official_footer .policy li {
+float:left;font-size:11.5px;
+}
+#official_footer .policy .content_list_1 a {
+color: #0d5ffb;
+font-weight:bolder;
+
+}
+
+#official_footer .policy a {
+display:inline-block;
+position:relative;
+height:40px;
+padding:0 15px;
+color:#7b7b7b;
+line-height:40px;
+}
+#official_footer .policy li + li a:before {
+position:absolute;
+top:50%;
+left:0;
+width:1px;
+height:6px;
+margin-top:-4px;
+background:#7b7b7b;
+content:"";
+}
+#official_footer .navbox .centered_content {
+position:relative;
+width: 1070px;
+margin: 0 auto;
+}
+#official_footer .navbox strong,
+#official_footer .navbox ul {
+position:absolute;
+right:0;
+}
+#official_footer .navbox strong {
+bottom:1px;
+width:160px;
+height:40px;
+padding-left:25px;
+border-left:1px solid #343434;
+background:url(/assets/images/common/bu_familysite.png) no-repeat 120px 50%;
+color:#adadad;
+font-size:12px;
+line-height:40px;
+cursor:pointer;
+box-sizing:border-box;
+transition:all .2s ease .5s;
+}
+#official_footer .navbox ul {
+overflow:hidden;
+bottom:41px;
+width:159px;
+height:0;
+background-color:#4e4e4e;
+transition:all .4s ease .15s;
+}
+#official_footer .navbox a {
+display:block;
+height:28px;
+padding-left:25px;
+color:#7b7b7b;
+line-height:28px;
+transition:all .3s ease;
+}
+#official_footer .navbox a:hover,
+#official_footer .navbox a:focus {
+background:rgba(0,0,0,.05);
+color:#adadad;
+}
+#official_footer .navbox:hover strong {
+background-color:#4e4e4e;
+background-image:url(/assets/images/common/bu_familysite_on.png);
+transition-delay:0s;
+}
+#official_footer .navbox:hover ul {
+height:140px;
+padding:10px 0;
+}
+#official_footer .site_sns strong,
+#official_footer .site_sns ul {
+right:160px;
+}
+#official_footer .site_sns:hover ul {
+height:420px;
+}
+
+#footer {
+  padding:40px 100px 40px 0; 
+  background:#292929; 
+  font-size:12px; 
+  text-align:center;
+}
+#footer .address_tel {
+  padding-bottom:5px;
+}
+#footer .address, #footer .tel {
+  display:inline-block; 
+  vertical-align:top;
+  font-size:10.5px;
+  color:#545454;
+}
+#footer .copyright
+{font-size:10.5px;
+  color:#545454;
+}

@@ -1,0 +1,20 @@
+div#subtitle {
+  min-height: 390px;
+}
+div#subtitle .wrap {
+  position: relative;
+  max-width: 100%;
+}
+div#subtitle .slick-next {
+  right: 20px;
+}
+div#subtitle .slick-prev {
+  left: 20px;
+  z-index: 1;
+}
+div#subtitle .wrap img {
+  width: 100%;
+}
+div#subtitle .slick-dots {
+  
+}

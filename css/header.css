@@ -1,0 +1,138 @@
+header {
+}
+@keyframes headerdown{
+  0%{
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+header .wrap {
+  /*! height: 100px; */
+  position: relative;
+}
+@keyframes widthfull{
+  100%{
+    width: 100%;
+  }
+}
+header .wrap nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+header .wrap nav h1 {
+  height: 100%;
+  padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+header .wrap nav h1 a::before {
+  content: "";
+  background-image: url(../img/icon.png);
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-size: contain;
+  vertical-align: -2px;
+  margin-right: 4px;
+}
+header .wrap nav h1:hover::before{
+  width: 120%;
+}
+header .wrap nav h1 a {
+  color: #022c81;
+  height: 100%;
+  display: block;
+  line-height: 2;
+  position: relative;
+  font-weight: bold;
+}
+header .wrap nav h1 a span {
+  
+  font-size: 0;
+  width: 68px;
+  height: 42px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../img/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15px;
+}
+header .wrap nav ul.gnb {
+  
+  width: 70%;
+}
+header .wrap nav ul.gnb li {
+  
+}
+header .wrap nav ul.gnb li a {
+  padding: 0 15px;
+  line-height: 3;
+  display: block;
+  border-top: 2px solid transparent;
+  font-size: 17px;
+  font-weight: 400;
+}
+header .wrap nav ul.gnb li a:hover{
+  
+  background-color: #ccc;
+  border-top: 2px solid #333;
+}
+header .wrap nav>div:nth-of-type(1) {
+  gap: 20px;
+  font-size: 13px;
+  align-items: center;
+}
+/* 기타메뉴 */
+header .wrap nav ul.enb {
+  width: calc(30% - 21px);
+  justify-content: end;
+  gap: 20px;
+}
+/* header .wrap nav ul.enb a {
+  display: block;
+  height: 16px;
+  background: url(/assets/images/common/gnb_official_menu_3.png) no-repeat;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  text-indent: -9999em;
+} */
+header .wrap nav ul.eng li {
+  
+}
+header .wrap nav ul.eng li a {
+  padding: 0 9px;
+  line-height: 2;
+  display: inline-block;
+  position: relative;
+  font-weight: 300;
+}
+header .wrap nav ul.eng li a:hover {
+  color: blue;
+}
+header .wrap nav ul.eng li:nth-child(1) a::after,header .wrap nav ul.eng li:nth-child(2) a::after{
+  content: "";
+  border-right: 1px solid #666;
+  height: 8px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 3px);
+}
+header .wrap nav form.search {
+  
+}
+header .wrap nav form.search button {
+  
+}
